@@ -21,7 +21,7 @@ A simple Codeforces dashboard for searching and comparing competitive programmin
 
 ## 📍 Live file
 
-[CP Dashboard index.html](https://github.com/yadavkp/cp_dashboard/blob/main/cp-dashboard/index.html)
+https://yadavkp.github.io/cp_dashboard/
 
 ## ✅ How to use
 
