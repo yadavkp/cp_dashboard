@@ -21,16 +21,15 @@ A simple Codeforces dashboard for searching and comparing competitive programmin
 
 ## 📍 Live file
 
-Open your dashboard here:
-- `https://github.com/yadavkp/cp_dashboard/blob/main/cp-dashboard/index.html`
+[CP Dashboard index.html](https://github.com/yadavkp/cp_dashboard/blob/main/cp-dashboard/index.html)
 
 ## ✅ How to use
 
 1. Open `cp-dashboard/index.html` in your browser
 2. Enter a Codeforces username and click **Analyze**
-3. View the profile data, solved count, and contest history
+3. View profile details, solved count, and contest history
 4. Click **Compare Users** to add more users
-5. The chart will show overlapping rating graphs
+5. See overlapping rating graphs for selected users
 6. Click **Toggle Theme** to switch modes
 
 ## 💡 Notes
@@ -41,4 +40,4 @@ Open your dashboard here:
 
 ## 📂 Repository
 
-`https://github.com/yadavkp/cp_dashboard`
+https://github.com/yadavkp/cp_dashboard
