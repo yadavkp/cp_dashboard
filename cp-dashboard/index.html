@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CP Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Competitive Programming Dashboard</h1>
+    <h3> WELCOME CODER </h3>
+  </header>
+
+  <section class="search-section">
+    <input type="text" id="username" placeholder="Enter Codeforces Username">
+    <button id="searchBtn">Analyze</button>
+    <button id="compareBtn">Compare Users</button>
+    <button id="themeBtn">Toggle Theme</button>
+  </section>
+
+  <section id="profile" class="card hidden">
+    <img id="avatar" src="" alt="avatar">
+    <h2 id="name"></h2>
+    <p><strong>Rating:</strong> <span id="rating"></span></p>
+    <p><strong>Max Rating:</strong> <span id="maxRating"></span></p>
+    <p><strong>Rank:</strong> <span id="rank"></span></p>
+    <p><strong>Solved:</strong> <span id="solvedCount"></span></p>
+  </section>
+
+  <section class="card hidden" id="chartSection">
+    <h2>Rating Graph</h2>
+    <canvas id="ratingChart"></canvas>
+  </section>
+
+  <section class="card hidden" id="contestSection">
+    <h2>Contest History</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Contest</th>
+          <th>Old Rating</th>
+          <th>New Rating</th>
+        </tr>
+      </thead>
+      <tbody id="contestTable"></tbody>
+    </table>
+  </section>
+
+  <section class="card hidden" id="compareSection">
+    <h2>Compare Rating Graphs</h2>
+    <div style="margin-bottom: 15px;">
+      <input type="text" id="compareUsername" placeholder="Enter username to compare">
+      <button id="addUserBtn">Add User</button>
+      <button id="clearComparisonBtn">Clear All</button>
+    </div>
+    <div id="selectedUsers" style="margin-bottom: 15px;"></div>
+  </section>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+  
+}
+
+header{
+  background-color:#2874f0;
+  color:white;
+  padding: 18px 30px;
+  width: fit-content;
+  margin: 0 auto 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+body{
+  background:skyblue;
+  color:#222;
+  padding:20px;
+  transition:0.3s;
+}
+
+.dark{
+  background:#121212;
+  color:white;
+}
+
+header{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.search-section{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  margin-bottom:20px;
+  flex-wrap:wrap;
+}
+
+input{
+  padding:12px;
+  width:250px;
+  border:1px solid #ccc;
+  border-radius:8px;
+ 
+}
+
+button{
+  padding:12px 18px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  background-color: blue;
+}
+
+#themeBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 200;
+}
+
+.card{
+  background:antiquewhite;
+  padding:20px;
+  margin:20px auto;
+  max-width:800px;
+  border-radius:12px;
+  box-shadow:0 4px 10px rgba(7, 91, 186, 0.1);
+}
+
+.dark .card{
+  background:#1e1e1e;
+}
+
+#profile{
+  text-align:center;
+}
+
+#avatar{
+  width:120px;
+  border-radius:50%;
+  margin-bottom:10px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td{
+  border:1px solid #ddd;
+  padding:10px;
+  text-align:center;
+}
+
+.hidden{
+  display:none;
+}
+
+#selectedUsers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.user-tag {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-tag button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media(max-width:600px){
+  input{
+    width:100%;
+  }
+}
